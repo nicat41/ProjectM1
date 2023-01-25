@@ -1,10 +1,435 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
+.logo-black {
+    margin-top: 10px;
+     margin-left: 5%;
+ }
+ 
+ header img {
+     padding-right: 5px;
+     padding-left: 10px;
+     margin: auto;
+ }
+ 
+ header p {
+     width: 100%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+ }
+ 
+ .title {
+     margin-left: 5%;
+     display: flex;
+     padding-top: 5%;
+ }
+ 
+ .information {
+     display: flex;
+ }
+
+ .second-blok{
+     display: flex;
+ }
+ 
+ h1 {
+     margin-left: 12%;
+     font-family: 'Roboto Slab', serif;
+     width: 80%;
+     font-size: 80px;
+     position: relative;
+     bottom: 25px;
+ }
+ 
+ .header-information {
+     position: relative;
+     bottom: 30px;
+     margin-left: 12%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     width: 60%;
+ }
+ 
+ .chief-producer {
+     margin-left: 20%;
+     margin-top: 3%;
+     width: 30%;
+ }
+
+ .producer{
+ width: 75%;
+ }
+ 
+ .shadow {
+     position: relative;
+     bottom: 20px;
+     left: 10px;
+     z-index: -1;
+     width: 70%;
+ }
+ 
+ .author {
+     box-sizing: border-box;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 5%;
+     margin-top: 2%;
+     width: 500px;
+     height: 220px;
+     padding: 5px 15px;
+     border-radius: 5px;
+     background-color: #1E4681;
+     color: white;
+ }
+ 
+ .first {
+     font-family: 'Roboto Slab', serif;
+     font-size: 25px;
+     width: 85%;
+ }
+ 
+ .second {
+     text-align: end;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+ }
+ 
+ .container {
+     display: flex;
+ }
+ 
+ .main-container h2 {
+   margin-left: 5%;
+     font-family: 'Roboto Slab', serif;
+     font-size: 55px;
+ }
+ 
+ .main-p {
+     margin-left: 5%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 24px;
+     width: 74%;
+ }
+ 
+ .main-cameraman {
+    margin-top: 11%;
+    margin-right: 5%;
+     width: 100%;
+ }
+ .cameraman{
+    width: 80%;
+ }
+ .second-shadow {
+     position: relative;
+     bottom: 35px;
+     right: 30px;
+     z-index: -1;
+     width: 360px;
+ }
+ 
+ .second-container{
+    margin-left: 5%;
+     display: flex;
+ }
+
+ .about {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 3%;
+ }
+ 
+ .second-cameraman {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .chief-comeraman{
+     width: 100%;
+ }
+
+ .third-shadow{
+     position: relative;
+     bottom: 15px;
+     left: 10px;
+     z-index: -1;
+     width: 100%;
+ }
+ 
+ h4 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+ }
+ 
+ .about-lesson {
+     margin-top: 7%;
+     margin-left: 10%;
+     max-width: 40%;
+ }
+ 
+ .sub-desc {
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     width: 78%;
+ }
+ 
+ .online-classes{
+     width: 70%;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .online-classes h4 { 
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     color: #1E4681;
+ }
+ 
+ .online-classes p {
+     font-family: 'Roboto', sans-serif;
+     width: 90%;
+     font-size: 18px;
+     position: relative;
+     bottom: 10px;
+ }
+ 
+ h5 {
+     font-family: 'Roboto Slab', serif;
+     font-size: 26px;
+ }
+ 
+ ul {
+     padding-inline-start: 15px;
+     font-size: 24px;
+     width: 30%;
+ }
+ 
+ li {
+     margin-right: 10px;
+ }
+ 
+ h2 {
+     margin-top: 30px;
+     font-family: 'Roboto Slab', serif;
+     font-size: 55px;
+ }
+ 
+ .course-program {
+     width: 100%;
+     margin-right: 10px;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .image {
+     width: 100%;
+ }
+ 
+ .card {
+     box-sizing: border-box;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     border-radius: 30px;
+     box-shadow: 2px 2px 3px 3px rgb(157, 153, 153);
+     width: 400px;
+ }
+ 
+ .card h3 {
+     width: 90%;
+     position: relative;
+     bottom: 10px;
+     left: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+ }
+ 
+ .card p {
+     margin-left: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     width: 60%;
+ }
+ 
+ .movie {
+     width: 100%;
+     position: relative;
+     top: 30px;
+     background-color: #EFEFEF;
+ }
+ 
+ .movie h2 {
+     position: relative;
+     top: 35px;
+     width: 100%;
+     padding-bottom: 70px;
+     margin-left: 5%;
+     font-family: 'Roboto Slab', serif;
+     font-size: 55px;
+ }
+ 
+ .movie-about {
+     position: relative;
+     bottom: 30px;
+     border-radius: 10px;
+     margin-left: 5%;
+     padding: 10px 20px;
+     box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
+     width: 45%;
+     background-color: #FFFFFF;
+ }
+ 
+ .profile {
+     display: flex;
+     width: 100%;
+ }
+ 
+ .text {
+     width: 90%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+ }
+ 
+ .profile h4 {
+     width: 150%;
+     font-family: 'Roboto Slab', serif;
+     font-size: 30px;
+ }
+ 
+ .facebook-title {
+     margin-right: 25%;
+ }
+ 
+ .profile-picture {
+     width: 80%;
+ }
+ 
+ .facebook {
+     width: 15%;
+ }
+ 
+ .first-title {
+     width: 100%;
+     background-color: #9DC9C8;
+ }
+ 
+ .first-title h2 {
+     margin-left: 5%;
+     position: relative;
+     top: 20px;
+     left: 5px;
+     width: 70%;
+     font-family: 'Roboto Slab', serif;
+     font-size: 32px;
+ }
+ 
+ .price {
+     margin-left: 5%;
+     position: relative;
+     top: 40px;
+     left: 15px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+ }
+ 
+ .rub {
+     margin-left: 6%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 46px;
+ }
+ 
+ .second-title {
+     width: 45%;
+     margin-left: 5%;
+     display: flex;
+ }
+ 
+ .first-text {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+ }
+ 
+ .second-text {
+     margin-bottom: 50px;
+     width: 75%;
+     font-family: 'Roboto', sans-serif;
+     font-size: 10px;
+ }
+ 
+ footer {
+     width: 100%;
+     background-color: black;
+     color: #FFFFFF;
+ }
+ 
+ .last-block {
+     padding-bottom: 60px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 5%;
+     width: 90%;
+ }
+ 
+ .logo-white {
+     margin-bottom: 10px;
+     margin-top: 10px;
+     width: 40%;
+ }
+ 
+ .media {
+     width: 20%;
+ }
+ 
+ .phone {
+     display: flex;
+ }
+ 
+ .phone img {
+     position: relative;
+     top: 30px;
+     right: 10px;
+     box-sizing: border-box;
+     width: 30px;
+     height: 25px;
+ }
+ 
+ .gmail {
+     display: flex;
+     position: relative;
+     bottom: 25px;
+ }
+ 
+ .gmail img {
+     position: relative;
+     top: 30px;
+     right: 10px;
+     box-sizing: border-box;
+     width: 30px;
+     height: 25px;
+ }
+ 
+ .number p {
+     bottom: 12px;
+     margin-left: 5px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+ }
+ 
+ .end {
+     margin-left: 5%;
+     padding-bottom: 15px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+ }
 @media screen and (min-width:320px) and (max-width:991px) {
 
-    .logo-black {
+    .second-blok{
+    display: flex;
+    flex-direction: column;
+     }
+
+     .logo-black {
         margin-top: 5%;
-    }
+     }
 
     header img {
         padding-right: 5px;
@@ -46,22 +471,26 @@
     }
 
     .chief-producer {
-         margin-left: 50%;
-         width: 30%;
+        margin-left: 65%;
+        width: 50%;
     }
 
-    .shadow { 
+    .producer{
         position: relative;
-        bottom: 20px;
+        bottom: 5px;
+    }
+
+    .shadow {
+        position: relative;
         left: 10px;
         z-index: -1;
-        
-        width: 170px;
+        width: 70%;
     }
 
     .author {
-      
-        width: 80%;
+        box-sizing: border-box;
+        width: 250px;
+        height: 100px;
         margin-top: 15%;
         padding: 5px 10px;
         border-radius: 5px;
@@ -72,7 +501,7 @@
     .first {
         font-family: 'Roboto Slab', serif;
         font-size: 11px;
-        width: 78%;
+        width: 82%;
     }
 
     .second {
@@ -81,12 +510,12 @@
         font-size: 10px;
     }
 
-    .main-container {
+    .container {
         display: flex;
         flex-direction: column;
     }
 
-    .main-container h1 {
+    .main-container h2 {
         position: relative;
         top: 15px;
         font-family: 'Roboto Slab', serif;
@@ -100,24 +529,32 @@
     }
 
     .main-cameraman {
-     margin-left: 20%;
-     width: 30%;
+        box-sizing: border-box;
+         margin-left: 25%;
+           width: 250px;
     }
+ 
     .second-shadow {
-         position: relative;
-         bottom: 25px;
-         right: 10px;
-         z-index: -1;
-         width: 210px;
+        position: relative;
+        bottom: 25px;
+        right: 15px;
+        z-index: -1;
+        width: 240px;
     }
 
     .about {
+        margin-left: 5%;
+    }
+    .second-container{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 5%;
     }
 
     .chief-comeraman {
+        display: none;
+    }
+
+    .third-shadow{
         display: none;
     }
 
@@ -127,7 +564,7 @@
     }
 
     .about-lesson {
-        width: 40%;
+        max-width: 40%;
     }
 
     .sub-desc {
@@ -135,12 +572,11 @@
         font-size: 10px;
         width: 75%;
     }
-
-    .online h2 {
-        width: 50%;
-        font-family: 'Roboto Slab', serif;
-        font-size: 26px;
-    }
+     
+     .online-classes {
+     display: flex;
+     flex-direction: column;
+      }
 
     .online-classes h4 {
         font-family: 'Roboto', sans-serif;
@@ -150,20 +586,19 @@
 
     .online-classes p {
         font-family: 'Roboto', sans-serif;
-        width: 58%;
+        width: 85%;
         font-size: 10px;
         position: relative;
         bottom: 10px;
     }
 
     h5 {
-
         font-family: 'Roboto Slab', serif;
         font-size: 26px;
     }
 
     ul {
-        padding-inline-start: 15px;
+        padding-inline-start:  15px;
         font-size: 12px;
         width: 100%;
     }
@@ -187,16 +622,12 @@
         flex-direction: column;
     }
 
-    .image{
-        width: 100%;
-       
-    }
-
     .card {
+        box-sizing: border-box;
         margin-bottom: 20px;
-        border-radius: 15px;
+        border-radius: 20px;
         box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
-        width: 75%;
+        width: 230px;
     }
 
     .card h3 {
@@ -216,8 +647,8 @@
     }
 
     .movie {
-     position: relative;
-     top: 30px;
+        position: relative;
+        top: 30px;
         background-color: #EFEFEF;
     }
 
@@ -272,9 +703,13 @@
     }
 
     .first-title {
-       
         width: 100%;
         background-color: #9DC9C8;
+    }
+
+    .first-title h2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 26px;
     }
 
     .first-title h3 {
@@ -282,16 +717,10 @@
         top: 20px;
         left: 5px;
         width: 70%;
-        font-family: 'Roboto Slab', serif;
-        font-size: 26px;
-    }
-
-    .history {
-        margin-left: 5%;
     }
 
     .rub {
-        margin-left: 5%;
+        margin-left: 15px;
         font-family: 'Roboto', sans-serif;
         font-size: 37px;
     }
@@ -305,7 +734,7 @@
     .price {
         position: relative;
         top: 40px;
-        left: 15px;
+        left: 5px;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
@@ -328,62 +757,481 @@
     }
 
     .last-block {
+        display: flex;
+        flex-direction: column;
         margin-left: 5%;
         margin-left: 5%;
         width: 100%;
     }
 
     .logo-white {
-        margin-bottom: 10px;
-        margin-top: 10px;
         width: 15%;
     }
 
-    .media{
+    .media {
         width: 5%;
+      
+    }
+    .number{
+        position: relative;
+        top: 25px;
     }
 
-    .phone {
-        position: relative;
-        top: 20px;
+    .phone {  
+        margin-left: 5px;
+        margin-top: 5%;
         display: flex;
     }
 
     .phone img {
-      
-        width: 5%;
-        height: 5%;
+        position: relative;
+        top: 10px;
+        box-sizing: border-box;
+        width: 12px;
+        height: 12px;
     }
 
     .gmail {
-        position: relative;
-        top: 20px;
+      margin-left: 5px;
         display: flex;
     }
 
     .gmail img {
-       
-        width: 5%;
-        height: 5%;
+        position: relative;
+        top: 15px;
+        box-sizing: border-box;
+        width: 12px;
+        height: 12px;
     }
 
     .number p {
        
-        position: relative;
-        bottom: 12px;
-        margin-left: 5px;
+      
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
 
     .end {
-        position: relative;
-        top: 40px;
-        left: 20px;
-        padding-bottom: 50px;
+        margin-left: 5%;
+        padding-bottom: 5%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
 }
+  @media screen and (min-width:992px) and (max-width:1279px) {
 
-@media screen and (min-width:992px) and (max-width:1279px) 
+    .logo-black {
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+
+    header img {
+        padding-right: 5px;
+        padding-left: 10px;
+        margin: auto;
+    }
+
+    header p {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+
+    .title {
+        margin-left: 5%;
+        display: flex;
+        padding-top: 5%;
+    }
+
+    .information {
+        display: flex;
+    }
+
+    .second-blok{
+        display: flex;
+    }
+
+    h1 {
+        margin-left: 12%;
+        font-family: 'Roboto Slab', serif;
+        width: 80%;
+        font-size: 46px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .header-information {
+        position: relative;
+        bottom: 30px;
+        margin-left: 12%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        width: 55%;
+    }
+
+    .chief-producer {
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 30%;
+    }
+
+    .producer{
+    width: 75%;
+    }
+    
+    .shadow {
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+        z-index: -1;
+        width: 70%;
+    }
+
+    .author {
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        width: 330px;
+        height: 140px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        background-color: #1E4681;
+        color: white;
+    }
+
+    .first {
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .second {
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .main-container h2 {
+      margin-left: 5%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+    }
+
+    .main-p {
+        margin-left: 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        width: 68%;
+    }
+
+    .main-cameraman {
+       margin-top: 10%;
+       margin-right: 20%;
+        width: 30%;
+    }
+
+    .second-shadow {
+        position: relative;
+        bottom: 25px;
+        right: 10px;
+        z-index: -1;
+        width: 210px;
+    }
+    
+    .second-container{
+        display: flex;
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+    }
+
+    .second-cameraman {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .chief-comeraman{
+        width: 80%;
+    }
+
+    .third-shadow{
+        position: relative;
+        bottom: 15px;
+        left: 10px;
+        z-index: -1;
+        width: 70%;
+    }
+   
+
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    .about-lesson {
+        margin-top: 7%;
+        margin-left: 10%;
+        max-width: 40%;
+    }
+
+    .sub-desc {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        width: 78%;
+    }
+
+    .online-classes{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .online-classes h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: #1E4681;
+    }
+
+    .online-classes p {
+        font-family: 'Roboto', sans-serif;
+        width: 82%;
+        font-size: 11px;
+        position: relative;
+        bottom: 10px;
+    }
+   
+    h5 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 26px;
+    }
+
+    ul {
+        padding-inline-start: 15px;
+        font-size: 14px;
+        width: 40%;
+    }
+
+    li {
+        margin-right: 10px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+    }
+
+    .course-program {
+        width: 80%;
+        margin-right: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .card {
+        box-sizing: border-box;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 3px 3px rgb(157, 153, 153);
+        width: 230px;
+    }
+
+    .card h3 {
+        width: 90%;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+
+    .card p {
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .movie {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        background-color: #EFEFEF;
+    }
+
+    .movie h2 {
+        position: relative;
+        top: 35px;
+        width: 100%;
+        padding-bottom: 70px;
+        margin-left: 5%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+    }
+
+    .movie-about {
+        position: relative;
+        bottom: 30px;
+        border-radius: 10px;
+        margin-left: 5%;
+        padding: 10px 20px;
+        box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
+        width: 45%;
+        background-color: #FFFFFF;
+    }
+
+    .profile {
+        display: flex;
+        width: 100%;
+    }
+
+    .text {
+        width: 90%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+
+    .profile h4 {
+        width: 150%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 17px;
+    }
+
+    .facebook-title {
+        margin-right: 25%;
+    }
+
+    .profile-picture {
+        width: 80%;
+    }
+
+    .facebook {
+        width: 15%;
+    }
+
+    .first-title {
+
+        width: 100%;
+        background-color: #9DC9C8;
+    }
+
+    .first-title h2 {
+        margin-left: 5%;
+        position: relative;
+        top: 20px;
+        left: 5px;
+        width: 70%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+    }
+
+    .price {
+        margin-left: 5%;
+        position: relative;
+        top: 40px;
+        left: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .rub {
+        margin-left: 6%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 46px;
+    }
+
+    .second-title {
+        width: 45%;
+        margin-left: 5%;
+        display: flex;
+    }
+
+    .first-text {
+       
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .second-text {
+        margin-bottom: 50px;
+        width: 75%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: black;
+        color: #FFFFFF;
+    }
+
+    .last-block {
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        width: 90%;
+     }
+
+    .logo-white {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 40%;
+    }
+
+    .media {
+        width: 15%;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    .phone img {
+        position: relative;
+        top: 15px;
+        box-sizing: border-box;
+        width: 15px;
+        height: 15px;
+    }
+
+    .gmail {
+        display: flex;
+    }
+
+    .gmail img {
+        position: relative;
+        top: 15px;
+        box-sizing: border-box;
+        width: 15px;
+        height: 15px;
+    }
+
+    .number p {
+        bottom: 12px;
+        margin-left: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .end {
+        margin-left: 5%;
+        padding-bottom: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+    }
+}
