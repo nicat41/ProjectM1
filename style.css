@@ -3,9 +3,6 @@
 body {
     margin: 0 auto;
 }
-main {
-    margin-left: 5%;
-}
 
 .logo-black {
     margin-top: 10px;
@@ -39,13 +36,15 @@ header p {
 }
 
 h1 {
-    margin: 0px;
+    margin: 0%;
+    margin-left: 10%;
     font-family: 'Roboto Slab', serif;
     width: 100%;
     font-size: 80px;
 }
 
 .header-information {
+    margin-left: 10%;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     width: 60%;
@@ -98,6 +97,7 @@ h1 {
 
 .container {
     display: flex;
+    margin-left: 5%;
 }
 
 .main-container h2 {
@@ -135,6 +135,7 @@ h1 {
 }
 
 .about {
+    margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -165,7 +166,6 @@ h4 {
 
 .about-lesson {
     margin-top: 7%;
-
     max-width: 40%;
 }
 
@@ -176,6 +176,7 @@ h4 {
 }
 
 .online-classes {
+    margin-left: 5%;
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -201,6 +202,7 @@ h5 {
 }
 
 ul {
+    margin-left: 5%;
     padding-inline-start: 15px;
     font-size: 24px;
     width: 40%;
@@ -211,12 +213,14 @@ li {
 }
 
 h2 {
+    margin-left: 5%;
     margin-top: 30px;
     font-family: 'Roboto Slab', serif;
     font-size: 55px;
 }
 
 .course-program {
+    margin-left: 5%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
