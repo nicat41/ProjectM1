@@ -1,435 +1,447 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
+body {
+    margin: 0 auto;
+}
+main {
+    margin-left: 5%;
+}
+
 .logo-black {
     margin-top: 10px;
-     margin-left: 5%;
- }
- 
- header img {
-     padding-right: 5px;
-     padding-left: 10px;
-     margin: auto;
- }
- 
- header p {
-     width: 100%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 20px;
- }
- 
- .title {
-     margin-left: 5%;
-     display: flex;
-     padding-top: 5%;
- }
- 
- .information {
-     display: flex;
- }
+    margin-left: 5%;
+}
 
- .second-blok{
-     display: flex;
- }
- 
- h1 {
-     margin-left: 12%;
-     font-family: 'Roboto Slab', serif;
-     width: 80%;
-     font-size: 80px;
-     position: relative;
-     bottom: 25px;
- }
- 
- .header-information {
-     position: relative;
-     bottom: 30px;
-     margin-left: 12%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 20px;
-     width: 60%;
- }
- 
- .chief-producer {
-     margin-left: 20%;
-     margin-top: 3%;
-     width: 30%;
- }
+header img {
+    padding-right: 5px;
+    padding-left: 10px;
+    margin: auto;
+}
 
- .producer{
- width: 75%;
- }
- 
- .shadow {
-     position: relative;
-     bottom: 20px;
-     left: 10px;
-     z-index: -1;
-     width: 70%;
- }
- 
- .author {
-     box-sizing: border-box;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 5%;
-     margin-top: 2%;
-     width: 500px;
-     height: 220px;
-     padding: 5px 15px;
-     border-radius: 5px;
-     background-color: #1E4681;
-     color: white;
- }
- 
- .first {
-     font-family: 'Roboto Slab', serif;
-     font-size: 25px;
-     width: 85%;
- }
- 
- .second {
-     text-align: end;
-     font-family: 'Roboto', sans-serif;
-     font-size: 20px;
- }
- 
- .container {
-     display: flex;
- }
- 
- .main-container h2 {
-   margin-left: 5%;
-     font-family: 'Roboto Slab', serif;
-     font-size: 55px;
- }
- 
- .main-p {
-     margin-left: 5%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 24px;
-     width: 74%;
- }
- 
- .main-cameraman {
+header p {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    margin-left: 5%;
+    display: flex;
+    padding-top: 5%;
+}
+
+.information {
+    display: flex;
+}
+
+.second-blok {
+    display: flex;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    font-size: 80px;
+}
+
+.header-information {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.chief-producer {
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 30%;
+}
+
+.producer {
+    width: 75%;
+}
+
+.shadow {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    z-index: -1;
+    width: 70%;
+}
+
+.author {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 500px;
+    height: 220px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #1E4681;
+    color: white;
+}
+
+.first {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    width: 85%;
+}
+
+.second {
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.main-container h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+.main-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    width: 76%;
+}
+
+.main-cameraman {
     margin-top: 11%;
     margin-right: 5%;
-     width: 100%;
- }
- .cameraman{
-    width: 80%;
- }
- .second-shadow {
-     position: relative;
-     bottom: 35px;
-     right: 30px;
-     z-index: -1;
-     width: 360px;
- }
- 
- .second-container{
-    margin-left: 5%;
-     display: flex;
- }
+    width: 100%;
+}
 
- .about {
-     display: flex;
-     flex-wrap: wrap;
-     margin-left: 3%;
- }
- 
- .second-cameraman {
+.cameraman {
+    width: 80%;
+}
+
+.second-shadow {
+    position: relative;
+    bottom: 35px;
+    right: 30px;
+    z-index: -1;
+    width: 360px;
+}
+
+.second-container {
+    margin-left: 5%;
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-cameraman {
     position: relative;
     top: 20px;
     display: flex;
     flex-direction: column;
- }
+}
 
- .chief-comeraman{
-     width: 100%;
- }
+.chief-comeraman {
+    width: 100%;
+}
 
- .third-shadow{
-     position: relative;
-     bottom: 15px;
-     left: 10px;
-     z-index: -1;
-     width: 100%;
- }
- 
- h4 {
-     font-family: 'Roboto', sans-serif;
-     font-size: 25px;
- }
- 
- .about-lesson {
-     margin-top: 7%;
-     margin-left: 10%;
-     max-width: 40%;
- }
- 
- .sub-desc {
-     font-family: 'Roboto', sans-serif;
-     font-size: 18px;
-     width: 78%;
- }
- 
- .online-classes{
-     width: 70%;
-     display: flex;
-     justify-content: space-around;
- }
+.third-shadow {
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    z-index: -1;
+    width: 100%;
+}
 
- .online-classes h4 { 
-     font-family: 'Roboto', sans-serif;
-     font-size: 25px;
-     color: #1E4681;
- }
- 
- .online-classes p {
-     font-family: 'Roboto', sans-serif;
-     width: 90%;
-     font-size: 18px;
-     position: relative;
-     bottom: 10px;
- }
- 
- h5 {
-     font-family: 'Roboto Slab', serif;
-     font-size: 26px;
- }
- 
- ul {
-     padding-inline-start: 15px;
-     font-size: 24px;
-     width: 30%;
- }
- 
- li {
-     margin-right: 10px;
- }
- 
- h2 {
-     margin-top: 30px;
-     font-family: 'Roboto Slab', serif;
-     font-size: 55px;
- }
- 
- .course-program {
-     width: 100%;
-     margin-right: 10px;
-     display: flex;
-     flex-wrap: wrap;
- }
- 
- .image {
-     width: 100%;
- }
- 
- .card {
-     box-sizing: border-box;
-     margin-left: 20px;
-     margin-bottom: 20px;
-     border-radius: 30px;
-     box-shadow: 2px 2px 3px 3px rgb(157, 153, 153);
-     width: 400px;
- }
- 
- .card h3 {
-     width: 90%;
-     position: relative;
-     bottom: 10px;
-     left: 10px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 30px;
- }
- 
- .card p {
-     margin-left: 10px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 25px;
-     width: 60%;
- }
- 
- .movie {
-     width: 100%;
-     position: relative;
-     top: 30px;
-     background-color: #EFEFEF;
- }
- 
- .movie h2 {
-     position: relative;
-     top: 35px;
-     width: 100%;
-     padding-bottom: 70px;
-     margin-left: 5%;
-     font-family: 'Roboto Slab', serif;
-     font-size: 55px;
- }
- 
- .movie-about {
-     position: relative;
-     bottom: 30px;
-     border-radius: 10px;
-     margin-left: 5%;
-     padding: 10px 20px;
-     box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
-     width: 45%;
-     background-color: #FFFFFF;
- }
- 
- .profile {
-     display: flex;
-     width: 100%;
- }
- 
- .text {
-     width: 90%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 20px;
- }
- 
- .profile h4 {
-     width: 150%;
-     font-family: 'Roboto Slab', serif;
-     font-size: 30px;
- }
- 
- .facebook-title {
-     margin-right: 25%;
- }
- 
- .profile-picture {
-     width: 80%;
- }
- 
- .facebook {
-     width: 15%;
- }
- 
- .first-title {
-     width: 100%;
-     background-color: #9DC9C8;
- }
- 
- .first-title h2 {
-     margin-left: 5%;
-     position: relative;
-     top: 20px;
-     left: 5px;
-     width: 70%;
-     font-family: 'Roboto Slab', serif;
-     font-size: 32px;
- }
- 
- .price {
-     margin-left: 5%;
-     position: relative;
-     top: 40px;
-     left: 15px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 14px;
- }
- 
- .rub {
-     margin-left: 6%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 46px;
- }
- 
- .second-title {
-     width: 45%;
-     margin-left: 5%;
-     display: flex;
- }
- 
- .first-text {
-     font-family: 'Roboto', sans-serif;
-     font-size: 14px;
- }
- 
- .second-text {
-     margin-bottom: 50px;
-     width: 75%;
-     font-family: 'Roboto', sans-serif;
-     font-size: 10px;
- }
- 
- footer {
-     width: 100%;
-     background-color: black;
-     color: #FFFFFF;
- }
- 
- .last-block {
-     padding-bottom: 60px;
-     display: flex;
-     justify-content: space-between;
-     margin-left: 5%;
-     width: 90%;
- }
- 
- .logo-white {
-     margin-bottom: 10px;
-     margin-top: 10px;
-     width: 40%;
- }
- 
- .media {
-     width: 20%;
- }
- 
- .phone {
-     display: flex;
- }
- 
- .phone img {
-     position: relative;
-     top: 30px;
-     right: 10px;
-     box-sizing: border-box;
-     width: 30px;
-     height: 25px;
- }
- 
- .gmail {
-     display: flex;
-     position: relative;
-     bottom: 25px;
- }
- 
- .gmail img {
-     position: relative;
-     top: 30px;
-     right: 10px;
-     box-sizing: border-box;
-     width: 30px;
-     height: 25px;
- }
- 
- .number p {
-     bottom: 12px;
-     margin-left: 5px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 25px;
- }
- 
- .end {
-     margin-left: 5%;
-     padding-bottom: 15px;
-     font-family: 'Roboto', sans-serif;
-     font-size: 18px;
- }
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.about-lesson {
+    margin-top: 7%;
+
+    max-width: 40%;
+}
+
+.sub-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 78%;
+}
+
+.online-classes {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.online-classes h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #1E4681;
+}
+
+.online-classes p {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+}
+
+ul {
+    padding-inline-start: 15px;
+    font-size: 24px;
+    width: 40%;
+}
+
+li {
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+.course-program {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 100%;
+}
+
+.card {
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px 3px rgb(157, 153, 153);
+    width: 400px;
+}
+
+.card h3 {
+    width: 90%;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.card p {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    max-width: 60%;
+}
+
+.movie {
+
+    max-width: 100%;
+    position: relative;
+    top: 30px;
+    background-color: #EFEFEF;
+}
+
+.movie h2 {
+    margin-left: 5%;
+    position: relative;
+    top: 35px;
+    max-width: 100%;
+    padding-bottom: 70px;
+    margin-left: 5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+.movie-about {
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
+    width: 60%;
+    background-color: #FFFFFF;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.profile h4 {
+    width: 150%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+.facebook-title {
+    margin-right: 25%;
+}
+
+.profile-picture {
+    width: 100%;
+}
+
+.facebook {
+    width: 10%;
+}
+
+.first-title {
+    background-color: #9DC9C8;
+}
+
+.first-title h2 {
+    margin-left: 5%;
+    position: relative;
+    top: 20px;
+    width: 70%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+
+.price {
+    margin-left: 5%;
+    position: relative;
+    top: 40px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.rub {
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+}
+
+.second-title {
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+}
+
+.first-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.second-text {
+    margin-bottom: 50px;
+    width: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+footer {
+    min-width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.last-block {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.social-media {
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.logo-white {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.media {
+    width: 20%;
+}
+
+.number {
+    margin-right: 10%;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone img {
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 25px;
+}
+
+.gmail {
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+.gmail img {
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 25px;
+}
+
+.number p {
+    bottom: 12px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.end {
+    margin-left: 5%;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
 @media screen and (min-width:320px) and (max-width:991px) {
 
-    .second-blok{
-    display: flex;
-    flex-direction: column;
-     }
+    .second-blok {
+        display: flex;
+        flex-direction: column;
+    }
 
-     .logo-black {
+    .logo-black {
         margin-top: 5%;
-     }
+        width: 20%;
+    }
 
     header img {
         padding-right: 5px;
@@ -438,7 +450,7 @@
     }
 
     header p {
-        width: 100%;
+        min-width: 100%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
@@ -453,29 +465,23 @@
     }
 
     h1 {
-        margin-left: 3%;
         font-family: 'Roboto Slab', serif;
-        width: 100%;
+        min-width: 100%;
         font-size: 37px;
-        position: relative;
-        bottom: 25px;
     }
 
     .header-information {
-        position: relative;
-        bottom: 30px;
-        margin-left: 3%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
         width: 70%;
     }
 
     .chief-producer {
-        margin-left: 65%;
+        margin-left: 60%;
         width: 50%;
     }
 
-    .producer{
+    .producer {
         position: relative;
         bottom: 5px;
     }
@@ -516,8 +522,6 @@
     }
 
     .main-container h2 {
-        position: relative;
-        top: 15px;
         font-family: 'Roboto Slab', serif;
         font-size: 26px;
     }
@@ -530,10 +534,10 @@
 
     .main-cameraman {
         box-sizing: border-box;
-         margin-left: 25%;
-           width: 250px;
+        margin-left: 20%;
+        width: 250px;
     }
- 
+
     .second-shadow {
         position: relative;
         bottom: 25px;
@@ -542,19 +546,13 @@
         width: 240px;
     }
 
-    .about {
-        margin-left: 5%;
-    }
-    .second-container{
+    .second-container {
+        margin: 0%;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .chief-comeraman {
-        display: none;
-    }
-
-    .third-shadow{
+    .second-cameraman {
         display: none;
     }
 
@@ -572,24 +570,21 @@
         font-size: 10px;
         width: 75%;
     }
-     
-     .online-classes {
-     display: flex;
-     flex-direction: column;
-      }
+
+    .online-classes {
+        display: flex;
+        flex-direction: column;
+    }
 
     .online-classes h4 {
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
-        color: #1E4681;
     }
 
     .online-classes p {
         font-family: 'Roboto', sans-serif;
-        width: 85%;
+        width: 80%;
         font-size: 10px;
-        position: relative;
-        bottom: 10px;
     }
 
     h5 {
@@ -598,7 +593,7 @@
     }
 
     ul {
-        padding-inline-start:  15px;
+        padding-inline-start: 15px;
         font-size: 12px;
         width: 100%;
     }
@@ -614,12 +609,9 @@
     }
 
     .course-program {
-        margin-left: 8%;
         width: 100%;
-        margin-right: 10px;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
     }
 
     .card {
@@ -632,47 +624,29 @@
 
     .card h3 {
         width: 90%;
-        position: relative;
-        bottom: 10px;
-        left: 10px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
 
     .card p {
-        margin-left: 10px;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
         width: 60%;
     }
 
-    .movie {
-        position: relative;
-        top: 30px;
-        background-color: #EFEFEF;
-    }
-
     .movie h2 {
-        position: relative;
-        top: 35px;
         width: 80%;
-        padding-bottom: 70px;
-        margin-left: 5%;
         font-family: 'Roboto Slab', serif;
         font-size: 26px;
     }
-
     .movie-about {
-        position: relative;
-        bottom: 30px;
+        box-sizing: border-box;
         border-radius: 10px;
-        margin-left: 10px;
-        padding: 5px 5px;
+        padding: 5px 10px 5px 10px;
         box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
-        width: 90%;
+        width: 280px;
         background-color: #FFFFFF;
     }
-
     .profile {
         display: flex;
         width: 100%;
@@ -695,7 +669,7 @@
     }
 
     .profile-picture {
-        width: 80%;
+        width: 85%;
     }
 
     .facebook {
@@ -704,7 +678,6 @@
 
     .first-title {
         width: 100%;
-        background-color: #9DC9C8;
     }
 
     .first-title h2 {
@@ -712,29 +685,17 @@
         font-size: 26px;
     }
 
-    .first-title h3 {
-        position: relative;
-        top: 20px;
-        left: 5px;
-        width: 70%;
-    }
-
     .rub {
-        margin-left: 15px;
         font-family: 'Roboto', sans-serif;
         font-size: 37px;
     }
 
     .second-title {
-        width: 100%;
-        margin-left: 10px;
+        width: 90%;
         display: flex;
     }
 
     .price {
-        position: relative;
-        top: 40px;
-        left: 5px;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
@@ -745,22 +706,15 @@
     }
 
     .second-text {
-        margin-bottom: 50px;
         width: 92%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
-
-    footer {
-        background-color: black;
-        color: #FFFFFF;
-    }
+   
 
     .last-block {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
-        margin-left: 5%;
         width: 100%;
     }
 
@@ -770,14 +724,14 @@
 
     .media {
         width: 5%;
-      
     }
-    .number{
+
+    .number {
         position: relative;
         top: 25px;
     }
 
-    .phone {  
+    .phone {
         margin-left: 5px;
         margin-top: 5%;
         display: flex;
@@ -792,7 +746,7 @@
     }
 
     .gmail {
-      margin-left: 5px;
+        margin-left: 5px;
         display: flex;
     }
 
@@ -805,8 +759,6 @@
     }
 
     .number p {
-       
-      
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
     }
@@ -818,7 +770,8 @@
         font-size: 10px;
     }
 }
-  @media screen and (min-width:992px) and (max-width:1279px) {
+
+@media screen and (min-width:992px) and (max-width:1279px) {
 
     .logo-black {
         margin-top: 10px;
@@ -847,12 +800,13 @@
         display: flex;
     }
 
-    .second-blok{
+    .second-blok {
         display: flex;
     }
 
     h1 {
-        margin-left: 12%;
+        padding: 0%;
+        margin-top: 5%;
         font-family: 'Roboto Slab', serif;
         width: 80%;
         font-size: 46px;
@@ -863,7 +817,6 @@
     .header-information {
         position: relative;
         bottom: 30px;
-        margin-left: 12%;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
         width: 55%;
@@ -875,10 +828,10 @@
         width: 30%;
     }
 
-    .producer{
-    width: 75%;
+    .producer {
+        width: 75%;
     }
-    
+
     .shadow {
         position: relative;
         bottom: 20px;
@@ -918,21 +871,19 @@
     }
 
     .main-container h2 {
-      margin-left: 5%;
         font-family: 'Roboto Slab', serif;
         font-size: 32px;
     }
 
     .main-p {
-        margin-left: 5%;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         width: 68%;
     }
 
     .main-cameraman {
-       margin-top: 10%;
-       margin-right: 20%;
+        margin-top: 10%;
+        margin-right: 20%;
         width: 30%;
     }
 
@@ -943,53 +894,44 @@
         z-index: -1;
         width: 210px;
     }
-    
-    .second-container{
+
+    .second-container {
         display: flex;
     }
 
     .about {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 3%;
     }
 
     .second-cameraman {
-       display: flex;
-       flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
-    .chief-comeraman{
+    .chief-comeraman {
         width: 80%;
     }
 
-    .third-shadow{
+    .third-shadow {
         position: relative;
         bottom: 15px;
         left: 10px;
         z-index: -1;
         width: 70%;
     }
-   
 
     h4 {
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
     }
 
-    .about-lesson {
-        margin-top: 7%;
-        margin-left: 10%;
-        max-width: 40%;
-    }
-
     .sub-desc {
         font-family: 'Roboto', sans-serif;
         font-size: 11px;
-        width: 78%;
     }
 
-    .online-classes{
+    .online-classes {
         width: 70%;
         display: flex;
         justify-content: space-around;
@@ -1000,15 +942,15 @@
         font-size: 15px;
         color: #1E4681;
     }
-
+    .online-blok{
+        width: 50%;
+    }
     .online-classes p {
         font-family: 'Roboto', sans-serif;
-        width: 82%;
+        width: 80%;
         font-size: 11px;
-        position: relative;
-        bottom: 10px;
     }
-   
+
     h5 {
         font-family: 'Roboto Slab', serif;
         font-size: 26px;
@@ -1025,14 +967,12 @@
     }
 
     h2 {
-        margin-top: 30px;
         font-family: 'Roboto Slab', serif;
         font-size: 32px;
     }
 
     .course-program {
         width: 80%;
-        margin-right: 10px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -1041,26 +981,13 @@
         width: 100%;
     }
 
-    .card {
-        box-sizing: border-box;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        box-shadow: 2px 2px 3px 3px rgb(157, 153, 153);
-        width: 230px;
-    }
-
     .card h3 {
         width: 90%;
-        position: relative;
-        bottom: 10px;
-        left: 10px;
         font-family: 'Roboto', sans-serif;
         font-size: 17px;
     }
 
     .card p {
-        margin-left: 10px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         width: 60%;
@@ -1069,29 +996,17 @@
     .movie {
         width: 100%;
         position: relative;
-        top: 30px;
         background-color: #EFEFEF;
     }
 
     .movie h2 {
-        position: relative;
-        top: 35px;
-        width: 100%;
-        padding-bottom: 70px;
-        margin-left: 5%;
+        width: 70%;
         font-family: 'Roboto Slab', serif;
         font-size: 32px;
     }
 
     .movie-about {
-        position: relative;
-        bottom: 30px;
-        border-radius: 10px;
-        margin-left: 5%;
-        padding: 10px 20px;
-        box-shadow: 1px 1px 2px 2px rgb(157, 153, 153);
         width: 45%;
-        background-color: #FFFFFF;
     }
 
     .profile {
@@ -1106,13 +1021,8 @@
     }
 
     .profile h4 {
-        width: 150%;
         font-family: 'Roboto Slab', serif;
         font-size: 17px;
-    }
-
-    .facebook-title {
-        margin-right: 25%;
     }
 
     .profile-picture {
@@ -1124,72 +1034,49 @@
     }
 
     .first-title {
-
         width: 100%;
-        background-color: #9DC9C8;
     }
 
     .first-title h2 {
-        margin-left: 5%;
-        position: relative;
-        top: 20px;
-        left: 5px;
         width: 70%;
         font-family: 'Roboto Slab', serif;
         font-size: 32px;
     }
 
     .price {
-        margin-left: 5%;
-        position: relative;
-        top: 40px;
-        left: 15px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
-    
+
     .rub {
-        margin-left: 6%;
         font-family: 'Roboto', sans-serif;
         font-size: 46px;
     }
 
     .second-title {
         width: 45%;
-        margin-left: 5%;
         display: flex;
     }
 
     .first-text {
-       
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
 
     .second-text {
-        margin-bottom: 50px;
         width: 75%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
 
-    footer {
-        width: 100%;
-        background-color: black;
-        color: #FFFFFF;
-    }
-
     .last-block {
-        padding-bottom: 60px;
         display: flex;
         justify-content: space-between;
         margin-left: 5%;
         width: 90%;
-     }
+    }
 
     .logo-white {
-        margin-bottom: 10px;
-        margin-top: 10px;
         width: 40%;
     }
 
@@ -1222,15 +1109,12 @@
     }
 
     .number p {
-        bottom: 12px;
-        margin-left: 5px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
 
     .end {
-        margin-left: 5%;
-        padding-bottom: 15px;
+        margin-left: 10%;
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
